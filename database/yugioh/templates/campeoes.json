@@ -1,0 +1,10 @@
+{
+    "campeoes": [
+        { 
+            "nome" : "Teste",
+            "jogo" : "yugioh",
+            "data" : "1231434",
+            "deck" : "D/D/D"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "eduar/gamecamp",
+    "type": "project",
+    "license": "mit",
+    "description": "",
+    "authors": [
+        {
+            "name": "dossantoscarlos",
+            "email": "anjoazrael10@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

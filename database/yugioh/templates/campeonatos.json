@@ -1,0 +1,9 @@
+{
+    "campeonatos":[
+        { 
+            "dataehora": "131241341",
+            "modalidade": "fast",
+            "quantidade_jogadores": 10 
+        }
+    ]
+}

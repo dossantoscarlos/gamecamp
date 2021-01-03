@@ -1,0 +1,12 @@
+{
+    "routes":[
+        {
+            "uri" : "selecao",
+            "file": "selecao.php"
+        },
+        {
+            "uri" : "/",
+            "file": "welcome.php"
+        }
+    ]
+}
