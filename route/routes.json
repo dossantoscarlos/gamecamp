@@ -1,11 +1,18 @@
 {
     "routes":[
         {
-            "uri" : "selecao",
+            "uri" : "/selecao",
+            "title": "Minha Selecao",
             "file": "selecao.php"
         },
         {
+            "uri" : "/sorteio",
+            "title": "Sorteio",
+            "file": "tabela_sorteio.php"
+        },
+        {
             "uri" : "/",
+            "title": "Bem Vindo",
             "file": "welcome.php"
         }
     ]

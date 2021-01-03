@@ -26,14 +26,15 @@ function logMsg( $msg, $level = 'info', $file = './logs/main.log' )
  
     // data atual
     $date = date( 'Y-m-d H:i:s' );
- 
+    
     // formata a mensagem do log
     // 1o: data atual
     // 2o: nível da mensagem (INFO, WARNING ou ERROR)
     // 3o: a mensagem propriamente dita
     // 4o: uma quebra de linha
-    $msg = sprintf( "[%s] [%s]: %s%s", $date, $levelStr, $msg, PHP_EOL );
- 
+
+    $msg = sprintf( "[%s] [%s]: %s%s", $date, $levelStr, (is_array($msg)) ? json_encode($msg)  : $msg, PHP_EOL );
+
     // escreve o log no arquivo
     // é necessário usar FILE_APPEND para que a mensagem seja escrita no final do arquivo, preservando o conteúdo antigo do arquivo
     file_put_contents( $file, $msg, FILE_APPEND );
