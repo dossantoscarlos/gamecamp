@@ -9,7 +9,7 @@
 
     logMsg($selecao);
 ?>
-    <form method='get' action='' class='form'>
+    <form method='post' action='<?php filter_input(INPUT_SERVER, 'PHP_SELF')?>' class='form'>
 <H1> Informe o nome dos  Jogadores </h1>
 
 <?php
@@ -35,7 +35,16 @@
 <?php 
     } 
 ?>
-    <style>
+    <Button>Embaralhar</button>
+</form>
+<?php 
+    $nomeJogador = filter_input_array(INPUT_POST, 'nome_jogador');
+    
+    print_r($nomeJogador);
+
+    logMsg($nomeJogador); 
+?>
+ <style>
         .group{
             display:inline-flex;
         }
