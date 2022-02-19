@@ -1,12 +1,12 @@
 {
-    "routes":[
-        {
-            "uri" : "selecao",
-            "file": "selecao.php"
-        },
-        {
-            "uri" : "/",
-            "file": "welcome.php"
-        }
-    ]
+	"routes": [
+		{
+			"uri": "/selecao",
+			"file": "./pages/selecao.php"
+		},
+		{
+			"uri": "/",
+			"file": "./pages/welcome.php"
+		}
+	]
 }
