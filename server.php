@@ -5,12 +5,8 @@
     $port = 8990;
     $path = ".";
 
-    logMsg('Servidor iniciado');
+    logMsg("Servido iniciado");
 
-    $result = System("php -S $host:$port -t $path", $log); 
-
-    if (empty($result)) $result="Servidor parou !!!";  
-
-    if ($log == 1) logMsg("{$result}" , 'error' );
+    System("php -S $host:$port -t $path", $log); 
     
-?>
+    if ($log == 1) logMsg("Servidor caiu" , 'error' );
