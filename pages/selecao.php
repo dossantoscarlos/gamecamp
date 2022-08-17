@@ -4,7 +4,7 @@
 
 <form >
     <div>
-        <label>Quantidade de Jogadores </label>
+        <label>Quantidade de Jogadores</label>
         <input type="number" >
     </div>
 </form>
