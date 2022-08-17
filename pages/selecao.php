@@ -3,7 +3,7 @@
 </h1>
 
 <form >
-    <div >
+    <div>
         <label>Quantidade de Jogadores </label>
         <input type="number" >
     </div>
